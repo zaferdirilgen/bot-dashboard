@@ -71,7 +71,7 @@
     "@vitest/coverage-v8": "^0.34.4",
     "@vitest/ui": "^1.1.1",
     "aws-sdk-client-mock": "^3.0.0",
-    "aws-sdk-client-mock-jest": "^3.0.0",
+    "aws-sdk-client-mock-jest": "^4.0.2",
     "babel-plugin-formatjs": "^10.5.13",
     "customize-cra": "^1.0.0",
     "eslint-config-custom": "*",
