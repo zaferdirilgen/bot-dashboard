@@ -61,7 +61,7 @@ jobs:
         run: yarn install --frozen-lockfile
 
       - name: Configure AWS credentials 🔑
-        uses: aws-actions/configure-aws-credentials@v3
+        uses: aws-actions/configure-aws-credentials@v4
         with:
           role-to-assume: ${{ secrets.DEPLOYMENT_AWS_ROLE }}
           aws-region: us-west-2
@@ -85,7 +85,7 @@ jobs:
 
     steps:
       - name: Configure AWS credentials 🔑
-        uses: aws-actions/configure-aws-credentials@v3
+        uses: aws-actions/configure-aws-credentials@v4
         with:
           role-to-assume: ${{ secrets.DEPLOYMENT_AWS_ROLE }}
           aws-region: us-west-2
@@ -181,7 +181,7 @@ jobs:
         run: yarn install --frozen-lockfile
 
       - name: Configure AWS credentials 🔑
-        uses: aws-actions/configure-aws-credentials@v3
+        uses: aws-actions/configure-aws-credentials@v4
         with:
           role-to-assume: ${{ secrets.DEPLOYMENT_AWS_ROLE }}
           aws-region: us-west-2
